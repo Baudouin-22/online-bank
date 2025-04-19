@@ -1,0 +1,13 @@
+server:
+  port: 8761 # default : 8761
+
+spring:
+  application:
+    name: service-discovery
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+  server:
+    enable-lowercase-service-name: true
